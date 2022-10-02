@@ -1,0 +1,29 @@
+.navbar-container{
+    height: 100px;
+    width: 100%;
+    background: #080808;
+    border-bottom: 1px solid #AEB1BF;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100px;
+}
+
+.navbar-button{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 40px;
+}
+

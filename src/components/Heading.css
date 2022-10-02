@@ -1,0 +1,38 @@
+.heading-container {
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table {
+    background-color: #121318;
+    padding: 40px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+
+.symbol {
+    padding-left: 20px;
+}
