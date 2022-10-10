@@ -1,29 +1,61 @@
-.navbar-container{
-    height: 100px;
+.navbar {
     width: 100%;
-    background: #080808;
-    border-bottom: 1px solid #AEB1BF;
-}
-
-.navbar{
+    height: 124px;
+    background-color: #080808;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    border-bottom: 2px solid #1c1c1c;
 }
 
-.navbar-logo{
+.navbar-logo {
+    padding-left: 12%;
+    padding-top: 42px;
+    padding-bottom: 42px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    width: 100px;
+    align-items: center;
 }
 
-.navbar-button{
-    color: #FFFFFF;
+.navbar-logo-image {
+    width: 40px;
+    height: 40px;
+    background-image: url("../assets/logo.svg");
+}
+
+.navbar-logo-label {
+    padding-left: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-items {
+    height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    gap: 40px;
+    padding-right: 7%;
 }
 
+.navbar-item {
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.navbar-item-label {
+    cursor: pointer;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #080808;
+}

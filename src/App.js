@@ -1,10 +1,12 @@
 import './App.css';
-import Watchlist from './pages/Watchlist';
+import NavbarComponent from './components/Navbar';
+import FooterComponent from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Watchlist />
+      <NavbarComponent />
+      <FooterComponent />
     </div>
   );
 }

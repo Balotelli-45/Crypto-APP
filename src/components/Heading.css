@@ -1,38 +1,75 @@
-.heading-container {
-    background-color: black;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    width: 100%;
-}
-
-.container {
-    height: 100%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .table {
-    background-color: #121318;
-    padding: 40px;
+    border-collapse: collapse;
+    border: none;
+    width: 90%;
 }
 
-.green {
-    color: green;
+.tableRowHeader {
+    border-top: #ccced90a 1px solid;
+    border-bottom: #ccced90a 1px solid;
 }
 
-.red {
-    color: red;
+.tableHeader {
+    background-color: #121418;
+    padding: 12px;
+    font-weight: 500;
+    text-align: left;
+    font-size: 14px;
+    color: #6C7080;
 }
 
-.name {
+.tableHeaderContent {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.tableHeader:first-child {
+    border-top-left-radius: 15px;
+}
+
+.tableHeader:last-child {
+    border-top-right-radius: 15px;
+}
+
+.tableRowItems {
+    cursor: auto;
+    background-color: #121418;
+}
+
+.tableCell {
+    padding: 12px;
+    font-size: 14px;
+    color: grey;
+}
+
+.nameCell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .symbol {
-    padding-left: 20px;
+    background-color: #080808;
+    padding: 5px;
+    border-radius: 10px;
+    color: #5367FF;
+}
+
+.arrow {
+    width: 7px;
+    height: 7px;
+    padding-left: 10px;
+}
+
+.starIcon {
+    width: 18px;
+    height: 18px;
 }
